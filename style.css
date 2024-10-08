@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 5px;
+}
+button {
+  cursor: pointer;
+  background-color: #1230ae;
+  color: white;
+  border: none;
+  padding: 2.5px;
+  border-radius: 1px;
+}
+input {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  padding: 2.5px;
+  border-radius: 1px;
+}
+input:focus {
+  border: 1px solid #4379f2;
+}
+#expense-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#expense-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  background-color: #3c3d37;
+  padding: 3px;
+  border-radius: 2px;
+}
+#expense-list li button {
+  background-color: #604cc3;
+  color: white;
+  padding: 2px;
+  border-radius: 1px;
+}
+.hidden {
+  display: none;
+}
+#total-amount{
+    font-size: 15px;
+    color: #8967B3;
+    text-align: center;
+}
+.expense-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
